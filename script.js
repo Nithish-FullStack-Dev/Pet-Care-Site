@@ -1,4 +1,4 @@
-$(".page5-two").slick({
+$(".explore-two").slick({
   dots: true,
   infinite: true,
   speed: 300,
@@ -37,17 +37,3 @@ $(".page5-two").slick({
   ],
 });
 
-$(document).ready(function () {
-  $(".read-more-btn").click(function () {
-    var $this = $(this);
-    var $content = $this.prev(".hidden-content");
-
-    $content.slideToggle(300, function () {
-      if ($content.is(":visible")) {
-        $this.text("Read Less");
-      } else {
-        $this.text("Read More");
-      }
-    });
-  });
-});

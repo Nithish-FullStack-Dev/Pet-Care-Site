@@ -29,7 +29,7 @@
 
 /*! PAGE 1  */
 
-.page1 {
+.pet-care {
   background-image: url("./assests/model.png");
   background-size: cover;
   background-position: center;
@@ -38,20 +38,27 @@
   padding: 83px 0 100px 0;
 }
 
-[alt="Union"] {
+.pet-inner-image {
+  width: 315px;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-.page1_content {
+.pet-inner-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pet-care-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.page1_content h5 {
+.pet-care-content h5 {
   font-family: var(--Inter-font);
   font-weight: 300;
   font-size: 28px;
@@ -59,21 +66,21 @@
   position: relative;
 }
 
-.page1_content h5::before {
-  content: url(./assests/small-star.png);
+.pet-care-content h5::before {
+  content: url("./assests/small-star.png");
   position: absolute;
   left: -89%;
 }
 
-.page1_content h5 #march {
+.pet-care-content h5 #march {
   letter-spacing: 5px;
 }
 
-.page1_content h5 #eight {
+.pet-care-content h5 #eight {
   font-weight: 700;
 }
 
-.page1_content h1 {
+.pet-care-content h1 {
   font-family: var(--Aboreto-font);
   font-weight: 400;
   font-size: 100px;
@@ -82,44 +89,44 @@
   margin-bottom: 20px;
 }
 
-.page1_content h1 #women {
+.pet-care-content h1 #women {
   color: var(--pink-color);
   position: relative;
 }
-.page1_content h1 #women::after {
-  content: url(./assests/love-symbol.png);
+.pet-care-content h1 #women::after {
+  content: url("./assests/love-symbol.png");
   position: absolute;
   top: -53%;
   right: -23%;
 }
 
-.page1_content h1 #pet {
+.pet-care-content h1 #pet {
   font-family: var(--Playfair-font);
   font-weight: 700;
   text-align: center;
   position: relative;
 }
 
-.page1_content h1 #pet::before {
+.pet-care-content h1 #pet::before {
   content: url("./assests/peace-symbol.png");
   position: absolute;
   left: -73%;
 }
 
-.page1_content h1 #pet::after {
-  content: url("./assests/pet_footprint.png");
+.pet-care-content h1 #pet::after {
+  content: url("./assests/pet-footprint.png");
   position: absolute;
   right: -20%;
 }
 
-.page1_content > h1,
-.page1_content > h5,
-.page1_content > h3,
-.page1_content > p {
+.pet-care-content > h1,
+.pet-care-content > h5,
+.pet-care-content > h3,
+.pet-care-content > p {
   color: var(--white-color);
 }
 
-.page1_content h3 {
+.pet-care-content h3 {
   font-family: var(--Inter-font);
   font-size: 40px;
   font-weight: 500;
@@ -128,14 +135,14 @@
   position: relative;
 }
 
-.page1_content h3::after {
+.pet-care-content h3::after {
   content: url(./assests/small-star.png);
   position: absolute;
   bottom: 81%;
   right: -2%;
 }
 
-.page1_content p {
+.pet-care-content p {
   font-family: var(--Inter-font);
   font-size: 18px;
   line-height: 29px;
@@ -144,20 +151,20 @@
   position: relative;
 }
 
-.page1_content p::before {
+.pet-care-content p::before {
   content: url("./assests/medium-star.png");
   position: absolute;
   left: -4%;
 }
 
-.page1_content p::after {
+.pet-care-content p::after {
   content: url(./assests/medium-star.png);
   position: absolute;
   top: -140%;
   right: 0%;
 }
 
-.page1_content .reserve_btn {
+.pet-care-content .reserve-btn {
   padding: 15px 44px;
   border: none;
   outline: none;
@@ -171,39 +178,39 @@
 
 /*! PAGE 2  */
 
-.page2 {
-  background-image: url("./assests/model-page2.png");
+.attend {
+  background-image: url("./assests/attend-background-img.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 100px 0;
 }
 
-.page2_content {
+.attend-content {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 18px;
 }
 
-.page2_content,
-.page2_words > h1,
-.page2_words > p {
+.attend-content,
+.attend-words > h1,
+.attend-words > p {
   color: var(--black-color);
 }
 
-.page2_content h1 {
+.attend-content h1 {
   font-family: var(--Playfair-font);
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.page2_content #attend {
+.attend-content #attend {
   color: var(--pink-color);
 }
 
-.page2_content p {
+.attend-content p {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -212,7 +219,7 @@
   margin-bottom: 30px;
 }
 
-.page2_content ul {
+.attend-content ul {
   font-family: Inter;
   font-weight: 600;
   font-size: 24px;
@@ -220,44 +227,44 @@
   vertical-align: middle;
 }
 
-.page2_words {
+.attend-words {
   flex-basis: 50%;
 }
 
-.page2_images {
+.attend-images {
   flex-basis: 50%;
   text-align: center;
 }
 
 /*! PAGE 3  */
-.page3 {
-  background-image: url(./assests/page3-model.png);
+.chief-guest {
+  background-image: url("./assests/chief-guest-backimg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 100px 0;
 }
 
-.page3_content {
+.chief-guest-content {
   display: flex;
   flex-direction: column;
   padding: 0 12.5%;
   margin: 0 auto;
 }
 
-.page3-one {
+.chief-guest-one {
   flex-basis: 20%;
   text-align: center;
 }
 
-.page3-one h1 {
+.chief-guest-one h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
   margin-bottom: 62px;
 }
 
-.page3-two {
+.chief-guest-two {
   display: flex;
   background-color: var(--white-color);
   border-radius: 28.42px;
@@ -265,71 +272,71 @@
   overflow: hidden;
 }
 
-.page3_imgdiv {
+.chief-guest-imgdiv {
   flex: 0 0 60%;
 }
 
-.page3_imgdiv img {
+.chief-guest-imgdiv img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.page3-two-content {
+.chief-guest-two-content {
   padding: 4% 2%;
   flex: 0 0 40%;
 }
 
-.page3-two-content > h4 {
+.chief-guest-two-content > h4 {
   font-family: var(--Inter-font);
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 14px;
 }
 
-.page3-two-content > p {
+.chief-guest-two-content > p {
   font-family: var(--Inter-font);
   font-size: 15px;
   line-height: 22px;
 }
 
-.page3-three {
+.chief-guest-three {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
-.page3_imgdiv1 {
+.chief-guest-imgdiv1 {
   width: 100%;
 }
 
-.page3-div1,
-.page3-div2,
-.page3-div3 {
+.chief-guest-div1,
+.chief-guest-div2,
+.chief-guest-div3 {
   background-color: var(--white-color);
   border-radius: 28.42px;
   flex-basis: 33.33%;
   text-align: center;
 }
 
-.page3_imgdiv1 img {
+.chief-guest-imgdiv1 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-.page3-div1 > h4,
-.page3-div2 > h4,
-.page3-div3 > h4 {
+.chief-guest-div1 > h4,
+.chief-guest-div2 > h4,
+.chief-guest-div3 > h4 {
   font-family: var(--Inter-font);
   font-weight: 600;
   font-size: 21.88px;
   margin-top: 18px;
 }
 
-.page3-div1 > p,
-.page3-div2 > p,
-.page3-div3 > p {
+.chief-guest-div1 > p,
+.chief-guest-div2 > p,
+.chief-guest-div3 > p {
   font-family: var(--Inter-font);
   font-size: 17.92px;
   line-height: 22.32px;
@@ -339,35 +346,35 @@
 
 /*! PAGE 4  */
 
-.page4 {
-  background-image: url(./assests/page4-model4.png);
+.fun-activity {
+  background-image: url(./assests/fun-activity-model4.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 4% 0;
 }
 
-.page4-content {
+.fun-activity-content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 114px;
 }
 
-.page4-one {
+.fun-activity-one {
   flex-basis: 50%;
 }
 
-.page4-two {
+.fun-activity-two {
   flex-basis: 50%;
   padding: 10% 0;
 }
 
-.page4-two .pink {
+.fun-activity-two .pink {
   color: var(--pink-color);
 }
 
-.page4-two h1 {
+.fun-activity-two h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
@@ -375,7 +382,7 @@
   vertical-align: middle;
 }
 
-.page4-two p {
+.fun-activity-two p {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -386,18 +393,18 @@
 
 /*! PAGE 5  */
 
-.page5 {
-  background-image: url(./assests/page5-model.png);
+.explore {
+  background-image: url("./assests/explore-model.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.page5-content {
+.explore-content {
   padding: 7% 0px;
 }
 
-.page5-content h1 {
+.explore-content h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
@@ -407,7 +414,7 @@
   margin-bottom: 20px;
 }
 
-.page5-content p {
+.explore-content p {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -418,27 +425,27 @@
   margin-bottom: 58px;
 }
 
-.page5-two {
+.explore-two {
   display: flex;
   gap: 88px;
   /* justify-content: center; */
 }
 
-.page5_imgdiv {
+.explore-imgdiv {
   width: 90%;
   height: 100%;
   margin: auto;
 }
 
-.page5_imgdiv img {
+.explore-imgdiv img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.page5-div1 > h1,
-.page5-div2 > h1,
-.page5-div3 > h1 {
+.explore-div1 > h1,
+.explore-div2 > h1,
+.explore-div3 > h1 {
   font-family: var(--Inter-font);
   font-weight: 700;
   font-size: 32px;
@@ -450,9 +457,9 @@
   margin-bottom: 18px;
 }
 
-.page5-div1 > p,
-.page5-div2 > p,
-.page5-div3 > p {
+.explore-div1 > p,
+.explore-div2 > p,
+.explore-div3 > p {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -465,23 +472,15 @@
 /* slick styles */
 
 .slick-slide {
-  margin: 0 10px; /* Adds 10px gap on both sides */
+  margin: 0 10px;
 }
 .slick-list {
-  margin: 0 -10px; /* Prevents layout shift */
+  margin: 0 -10px;
 }
 
 .custom-prev {
   left: -73px;
 }
-/* .custom-prev,
-.custom-next {
-  font-family: "slick";
-  font-size: 65px;
-  line-height: 0;
-  opacity: 1;
-  color: var(--pink-color);
-} */
 
 .custom-prev,
 .custom-next {
@@ -506,21 +505,21 @@
 }
 /*! PAGE 6  */
 
-.page6 {
+.event-details {
   background-color: #f6f6f6;
 }
-.page6-content {
+.event-details-content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6% 0;
 }
 
-.page6-one {
+.event-details-one {
   flex-basis: 50%;
 }
 
-.page6-one h1 {
+.event-details-one h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
@@ -530,7 +529,7 @@
   margin-bottom: 50px;
 }
 
-.page6-one p {
+.event-details-one p {
   font-family: var(--Inter-font);
   font-weight: 400;
   font-size: 27px;
@@ -540,7 +539,7 @@
   margin-bottom: 20px;
 }
 
-.page6-one h2 {
+.event-details-one h2 {
   font-family: var(--Inter-font);
   font-weight: 600;
   font-size: 32px;
@@ -550,7 +549,7 @@
   margin-bottom: 10px;
 }
 
-.page6-one #page6-para {
+.event-details-one #event-details-para {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -559,17 +558,17 @@
   vertical-align: middle;
 }
 
-.page6-two {
+.event-details-two {
   flex-basis: 50%;
 }
 
 /*! PAGE 7  */
 
-.page7 {
+.collaboration {
   background-color: #fff;
 }
 
-.page7-content {
+.collaboration-content {
   padding: 7% 0;
   display: flex;
   flex-direction: column;
@@ -577,7 +576,7 @@
   justify-content: center;
 }
 
-.page7-one h1 {
+.collaboration-one h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
@@ -587,14 +586,14 @@
   margin-bottom: 60px;
 }
 
-.page7-two {
+.collaboration-two {
   display: flex;
   align-items: center;
   gap: 91px;
   margin-bottom: 42px;
 }
 
-.page7-three p {
+.collaboration-three p {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -604,7 +603,7 @@
   vertical-align: middle;
 }
 
-.page7-three {
+.collaboration-three {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -612,15 +611,15 @@
 
 /*! PAGE 8 */
 
-.page8 {
+.book {
   background-color: #fff4f4;
 }
 
-.page8-content {
+.book-content {
   padding: 100px 0;
 }
 
-.page8-content h1 {
+.book-content h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
@@ -631,7 +630,7 @@
   margin-bottom: 50px;
 }
 
-.page8-content p {
+.book-content p {
   font-family: var(--Inter-font);
   font-weight: 500;
   font-size: 20px;
@@ -639,9 +638,11 @@
   text-align: center;
   vertical-align: middle;
   margin-bottom: 30px;
+  border-bottom: 2px solid #D9D9D9;
+  padding-bottom: 30px;
 }
 
-.page8-content h3 {
+.book-content h3 {
   font-family: var(--Inter-font);
   font-weight: 600;
   font-size: 30px;
@@ -662,7 +663,7 @@ hr {
   align-items: center;
 }
 
-.page8-content button {
+.book-content button {
   border-radius: 14px;
   padding: 16px 50px;
   border: none;
