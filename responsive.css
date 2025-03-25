@@ -93,14 +93,14 @@
     left: -52%;
   }
   .page1_content p {
-    font-size: 14.5px;
+    font-size: 18.5px;
     line-height: 26px;
   }
   .page1_content p {
     margin-bottom: 28px;
   }
   .page1_content p::before {
-    left: -15%;
+    left: -7%;
   }
   .page1_content .reserve_btn {
     padding: 15px 32px;
@@ -205,14 +205,14 @@
     margin-bottom: 20px;
   }
   .page1_content p {
-    font-size: 13.5px;
+    font-size: 15.5px;
     line-height: 25px;
     margin-bottom: 19px;
   }
   /*! PAGE 2  */
   .page2_content p {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 25px;
   }
   .page2_content ul {
     font-size: 20px;
@@ -235,8 +235,8 @@
     flex: 0 0 50%;
   }
   .page3-two .page3-two-content > p {
-    font-size: 12px;
-    line-height: 19.44px;
+    font-size: 17px;
+    line-height: 25.44px;
   }
   .page3-two .page3-two-content > h4 {
     font-size: 20px;
@@ -270,7 +270,7 @@
     line-height: 61px;
   }
   .page4-two p {
-    font-size: 15px;
+    font-size: 19px;
     line-height: 28px;
   }
 
@@ -289,7 +289,7 @@
   .page5-div1 > p,
   .page5-div2 > p,
   .page5-div3 > p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 23px;
   }
   .custom-prev,
@@ -313,7 +313,7 @@
   }
 
   .page6-one #page6-para {
-    font-size: 13px;
+    font-size: 20px;
     line-height: 27px;
   }
 
@@ -331,7 +331,7 @@
     height: auto;
   }
   .page7-three p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 27px;
   }
   /*! PAGE 8  */
@@ -340,7 +340,7 @@
     line-height: 38px;
   }
   .page8-content p {
-    font-size: 16px;
+    font-size: 20px;
   }
   .page8-content h3 {
     font-size: 25px;
@@ -387,7 +387,7 @@
     height: 62%;
   }
   .page1_content p::before {
-    left: -24%;
+    left: -13%;
     top: -10%;
   }
   /*! PAGE 2  */
@@ -619,8 +619,8 @@
     margin-bottom: 9px;
   }
   .page2_content ul {
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 28px;
   }
   /*! PAGE 3  */
   .page3_content {
@@ -786,8 +786,8 @@
   }
 
   .page2_content p {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 17px;
+    line-height: 30px;
   }
 
   .display {
@@ -872,12 +872,13 @@
   }
   /*! PAGE 4 */
   .page4-two h1 {
-    font-size: 22px;
+    font-size: 28px;
+    line-height: 52px;
   }
 
   .page4-two p {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   /*! PAGE 5 */
@@ -1088,6 +1089,7 @@
   }
   .page7-two {
     gap: 28px;
+    flex-direction: column;
   }
   .page8-content p {
     font-size: 17px;
