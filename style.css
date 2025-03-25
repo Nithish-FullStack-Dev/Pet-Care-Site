@@ -9,6 +9,7 @@
   --Aboreto-font: "Aboreto", system-ui;
   --Playfair-font: "Playfair Display", serif;
   --Inter-font: "Inter", sans-serif;
+  --border-radius: 28.42px;
 }
 
 * {
@@ -146,14 +147,14 @@
 .page1_content p::before {
   content: url("./assests/medium-star.png");
   position: absolute;
-  left: -24%;
+  left: -4%;
 }
 
 .page1_content p::after {
   content: url(./assests/medium-star.png);
   position: absolute;
-  top: -65%;
-  right: -17%;
+  top: -140%;
+  right: 0%;
 }
 
 .page1_content .reserve_btn {
@@ -182,6 +183,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 18px;
 }
 
 .page2_content,
@@ -224,10 +226,10 @@
 
 .page2_images {
   flex-basis: 50%;
+  text-align: center;
 }
 
 /*! PAGE 3  */
-
 .page3 {
   background-image: url(./assests/page3-model.png);
   background-size: cover;
@@ -240,50 +242,65 @@
   display: flex;
   flex-direction: column;
   padding: 0 12.5%;
+  margin: 0 auto;
 }
 
-.page3_content .page3-one h1 {
+.page3-one {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.page3-one h1 {
   font-family: var(--Playfair-font);
   font-weight: 700;
   font-size: 50px;
-  vertical-align: middle;
-  text-align: center;
   margin-bottom: 62px;
 }
 
-.page3_content .page3-two {
+.page3-two {
   display: flex;
   background-color: var(--white-color);
   border-radius: 28.42px;
   margin-bottom: 11px;
+  overflow: hidden;
+}
+
+.page3_imgdiv {
+  flex: 0 0 60%;
+}
+
+.page3_imgdiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .page3-two-content {
   padding: 4% 2%;
+  flex: 0 0 40%;
 }
 
-.page3-two .page3-two-content > h4 {
+.page3-two-content > h4 {
   font-family: var(--Inter-font);
   font-weight: 600;
   font-size: 22px;
-  line-height: 21.69px;
-  letter-spacing: 0%;
-  vertical-align: middle;
   margin-bottom: 14px;
 }
 
-.page3-two .page3-two-content > p {
+.page3-two-content > p {
   font-family: var(--Inter-font);
-  font-weight: 400;
   font-size: 15px;
-  line-height: 22.44px;
-  letter-spacing: 0%;
-  vertical-align: middle;
+  line-height: 22px;
 }
 
-.page3_content .page3-three {
+.page3-three {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.page3_imgdiv1 {
+  width: 100%;
 }
 
 .page3-div1,
@@ -291,30 +308,33 @@
 .page3-div3 {
   background-color: var(--white-color);
   border-radius: 28.42px;
-}
-
-.page3-div1 > p,
-.page3-div2 > p,
-.page3-div3 > p {
-  font-family: var(--Inter-font);
-  font-weight: 400;
-  font-size: 14.92px;
-  line-height: 22.32px;
+  flex-basis: 33.33%;
   text-align: center;
-  padding: 18px;
-  vertical-align: middle;
 }
 
+.page3_imgdiv1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
 .page3-div1 > h4,
 .page3-div2 > h4,
 .page3-div3 > h4 {
   font-family: var(--Inter-font);
   font-weight: 600;
   font-size: 21.88px;
-  line-height: 21.57px;
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom: 14px;
+  margin-top: 18px;
+}
+
+.page3-div1 > p,
+.page3-div2 > p,
+.page3-div3 > p {
+  font-family: var(--Inter-font);
+  font-size: 17.92px;
+  line-height: 22.32px;
+  padding: 17px 13px;
+  text-align: justify;
 }
 
 /*! PAGE 4  */
@@ -329,7 +349,9 @@
 
 .page4-content {
   display: flex;
-  gap: 120px;
+  align-items: center;
+  justify-content: center;
+  gap: 114px;
 }
 
 .page4-one {
@@ -399,6 +421,19 @@
 .page5-two {
   display: flex;
   gap: 88px;
+  /* justify-content: center; */
+}
+
+.page5_imgdiv {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.page5_imgdiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .page5-div1 > h1,
@@ -427,6 +462,48 @@
   vertical-align: middle;
 }
 
+/* slick styles */
+
+.slick-slide {
+  margin: 0 10px; /* Adds 10px gap on both sides */
+}
+.slick-list {
+  margin: 0 -10px; /* Prevents layout shift */
+}
+
+.custom-prev {
+  left: -73px;
+}
+/* .custom-prev,
+.custom-next {
+  font-family: "slick";
+  font-size: 65px;
+  line-height: 0;
+  opacity: 1;
+  color: var(--pink-color);
+} */
+
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  padding: 11px 21px;
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.custom-prev {
+  left: -6%;
+}
+
+.custom-next {
+  right: -6%;
+}
 /*! PAGE 6  */
 
 .page6 {

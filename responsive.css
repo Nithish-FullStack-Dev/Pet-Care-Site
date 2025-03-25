@@ -1,8 +1,8 @@
 @media (max-width: 1919px) {
   .container {
-    width: 1520px;
-    margin: 0 auto;
+    width: 1420px;
   }
+
   [alt="Union"] {
     display: block;
     height: 58%;
@@ -48,6 +48,17 @@
     gap: 74px;
   }
 
+  .page5_imgdiv {
+    width: 90%;
+  }
+  .custom-prev,
+  .custom-next {
+    font-size: 38px;
+  }
+  .custom-next {
+    right: -4%;
+  }
+
   /*! PAGE 6  */
   .page6-one {
     flex-basis: 48%;
@@ -57,12 +68,1040 @@
   }
 }
 @media (max-width: 1599px) {
+  .container {
+    width: 1110px;
+  }
+
+  .page1_content h1 {
+    font-size: 82px;
+    line-height: 95px;
+  }
+  .page1_content h1 #pet::after {
+    right: -23%;
+  }
+  .page1_content h1 #pet::before {
+    left: -52%;
+  }
+  [alt="Union"] {
+    height: 56%;
+  }
+  .page1_content h3 {
+    font-size: 34px;
+    margin-bottom: 34px;
+  }
+  .page1_content h1 #pet::before {
+    left: -52%;
+  }
+  .page1_content p {
+    font-size: 14.5px;
+    line-height: 26px;
+  }
+  .page1_content p {
+    margin-bottom: 28px;
+  }
+  .page1_content p::before {
+    left: -15%;
+  }
+  .page1_content .reserve_btn {
+    padding: 15px 32px;
+  }
+  /*! PAGE 2  */
+  .page2_content p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .page2_content ul {
+    font-size: 22px;
+    line-height: 43px;
+  }
+
+  /*! PAGE 3  */
+  .page3_content {
+    padding: 0 5%;
+  }
+  .page3_imgdiv {
+    flex: 0 0 55%;
+  }
+  .page3-two-content {
+    flex: 0 0 45%;
+  }
+  .page3-div1 > p,
+  .page3-div2 > p,
+  .page3-div3 > p {
+    font-size: 16.92px;
+    padding: 18px 22px;
+  }
+  /*! PAGE 5  */
+  .custom-next {
+    right: -8%;
+  }
+  .page5-content > h1 {
+    font-size: 47px;
+    line-height: 60px;
+  }
+  .page5-content p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 51px;
+  }
+  .page5-div1 > p,
+  .page5-div2 > p,
+  .page5-div3 > p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .custom-prev {
+    left: -8%;
+  }
+  /*! PAGE 6  */
+  .page6-content {
+    gap: 29px;
+    padding: 10% 0;
+  }
+  .page6-one h1 {
+    font-size: 45px;
+    margin-bottom: 27px;
+  }
+  .page6-two img {
+    width: 100%;
+  }
+  .page6-one p {
+    font-size: 25px;
+    line-height: 26px;
+    margin-bottom: 18px;
+  }
+  .page6-one #page6-para {
+    font-size: 15px;
+    line-height: 27px;
+  }
 }
 @media (max-width: 1399px) {
+  .container {
+    width: 991px;
+  }
+  .page1 {
+    padding: 59px 0 79px 0;
+  }
+  .page1_content p::before {
+    left: -7%;
+    top: 37%;
+  }
+  .page1_content h5 {
+    font-size: 18px;
+  }
+  .page1_content h1 {
+    font-size: 59px;
+    line-height: 73px;
+  }
+  .page1_content h1 #pet::before {
+    left: -62%;
+  }
+  .page1_content h1 #pet::after {
+    right: -34%;
+  }
+  .page1_content h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .page1_content p {
+    font-size: 13.5px;
+    line-height: 25px;
+    margin-bottom: 19px;
+  }
+  /*! PAGE 2  */
+  .page2_content p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .page2_content ul {
+    font-size: 20px;
+    line-height: 39px;
+  }
+  .page2_images img {
+    width: 86%;
+  }
+  /*!PAGE 3  */
+  .page3_content .page3-one h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+  .page3_imgdiv {
+    flex: 0 0 50%;
+  }
+  .page3-two-content {
+    padding: 4% 2%;
+    text-align: left;
+    flex: 0 0 50%;
+  }
+  .page3-two .page3-two-content > p {
+    font-size: 12px;
+    line-height: 19.44px;
+  }
+  .page3-two .page3-two-content > h4 {
+    font-size: 20px;
+  }
+  .page3-div1 > p,
+  .page3-div2 > p,
+  .page3-div3 > p {
+    font-size: 16.92px;
+    line-height: 20.32px;
+    padding: 13px 22px;
+    text-align: justify;
+  }
+  .page3-div1 > h4,
+  .page3-div2 > h4,
+  .page3-div3 > h4 {
+    font-size: 18.88px;
+    line-height: 14.57px;
+  }
+  .page4-one img {
+    width: 92%;
+  }
+  /*! PAGE 4  */
+  .page4 {
+    padding: 10% 0;
+  }
+  .page4-content {
+    gap: 70px;
+  }
+  .page4-two h1 {
+    font-size: 44px;
+    line-height: 61px;
+  }
+  .page4-two p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  /*!PAGE 5  */
+  .page5_imgdiv {
+    width: 84%;
+  }
+  .page5-content h1 {
+    font-size: 37px;
+    margin-bottom: 12px;
+  }
+  .page5-content .h1 {
+    font-size: 41px;
+    margin-bottom: 24px;
+  }
+  .page5-div1 > p,
+  .page5-div2 > p,
+  .page5-div3 > p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .custom-prev,
+  .custom-next {
+    font-size: 33px;
+    padding: 5px 17px;
+  }
+
+  /*! PAGE 6  */
+  .page6-one h1 {
+    font-size: 37px;
+    margin-bottom: 10px;
+  }
+  .page6-one p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .page6-one h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+
+  .page6-one #page6-para {
+    font-size: 13px;
+    line-height: 27px;
+  }
+
+  /*! PAGE 7  */
+  .page7-one h1 {
+    font-size: 43px;
+    margin-bottom: 48px;
+  }
+  .page7-two img {
+    width: 240px;
+    height: auto;
+  }
+  .page7-two [alt="and"] {
+    width: 50px;
+    height: auto;
+  }
+  .page7-three p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  /*! PAGE 8  */
+  .page8-content h1 {
+    font-size: 45px;
+    line-height: 38px;
+  }
+  .page8-content p {
+    font-size: 16px;
+  }
+  .page8-content h3 {
+    font-size: 25px;
+    margin-bottom: 33px;
+  }
+  .page8-content button {
+    padding: 16px 41px;
+    font-size: 23px;
+  }
 }
 @media (max-width: 1199px) {
+  .container {
+    width: 791px;
+  }
+
+  .page1_content h1 {
+    font-size: 45px;
+    line-height: 56px;
+  }
+  .page1_content h5 {
+    font-size: 12px;
+  }
+  .page1_content h1 #pet::after {
+    right: -42%;
+    top: -17%;
+  }
+  .page1_content h1 #pet::before {
+    left: -82%;
+  }
+  .page1_content h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .page1_content p {
+    font-size: 14.5px;
+    line-height: 25px;
+    margin-bottom: 13px;
+  }
+  .page1_content .reserve_btn {
+    padding: 7px 16px;
+    font-size: 11px;
+  }
+  [alt="Union"] {
+    height: 62%;
+  }
+  .page1_content p::before {
+    left: -24%;
+    top: -10%;
+  }
+  /*! PAGE 2  */
+  .page2_content h1 {
+    font-size: 35px;
+    margin-bottom: 13px;
+  }
+  .page2_content p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 11px;
+  }
+  .page2_content {
+    gap: 44px;
+  }
+  .page2_content ul {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .page2_images img {
+    width: 100%;
+  }
+  /* ! PAGE 3 */
+  .page3_content .page3-one h1 {
+    font-size: 33px;
+    margin-bottom: 25px;
+  }
+  .page3_imgdiv {
+    flex: 0 0 45%;
+  }
+  .page3-two-content {
+    padding: 4% 3%;
+    flex: 0 0 55%;
+  }
+  .page3-two .page3-two-content > p {
+    font-size: 14px;
+    line-height: 19.44px;
+  }
+  .page3_content {
+    padding: 0 9%;
+  }
+  .page3-div1 > p,
+  .page3-div2 > p,
+  .page3-div3 > p {
+    font-size: 12.92px;
+    line-height: 16.32px;
+    padding: 20px 13px;
+  }
+  .page3_content .page3-three {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  /*! PAGE 4  */
+  .page4-two {
+    padding: 2% 0;
+  }
+  .page4-two h1 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .page4-two p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  /*! PAGE 5 */
+  .page5-content h1 {
+    font-size: 33px;
+    margin-bottom: 7px;
+  }
+  .page5-content p {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 45px;
+  }
+  .page5_imgdiv {
+    width: 88%;
+  }
+  .custom-prev,
+  .custom-next {
+    font-size: 24px;
+    padding: 4px 12px;
+    top: 29%;
+  }
+  .page5-content .h1 {
+    font-size: 27px;
+    margin-bottom: 19px;
+  }
+  .page5-one > p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+
+  .page5-content p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+
+  /*! PAGE 6  */
+  .page6-one h1 {
+    font-size: 25px;
+    margin-bottom: 9px;
+  }
+  .page6-one p {
+    font-size: 15px;
+    line-height: 13px;
+    margin-bottom: 14px;
+  }
+  .page6-one h2 {
+    font-size: 23px;
+    margin-bottom: 6px;
+  }
+  .page6-one #page6-para {
+    font-size: 9px;
+    line-height: 18px;
+  }
+  /*! PAGE 7  */
+  .page7-one h1 {
+    font-size: 33px;
+    margin-bottom: 29px;
+  }
+  .page7-two img {
+    width: 190px;
+    height: auto;
+  }
+  .page7-two [alt="and"] {
+    width: 28px;
+    height: auto;
+  }
+  .page7-three p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  /*! PAGE 8  */
+  .page8-content h1 {
+    font-size: 39px;
+    line-height: 11px;
+  }
+  .page8-content p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .page8-content h3 {
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+  .page8-content button {
+    padding: 10px 27px;
+    font-size: 18px;
+  }
 }
+
 @media (max-width: 991px) {
+  .container {
+    width: 591px;
+  }
+  .page1_content h1 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .page1_content h1 #pet::after {
+    content: "";
+    display: inline-block;
+    background-image: url(./assests/pet_footprint.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -20%;
+    top: 15%;
+  }
+  .page1_content h1 #women::after {
+    content: "";
+    position: absolute;
+    top: -33%;
+    right: -23%;
+    width: 30px;
+    height: 30px;
+    background-image: url(./assests/love-symbol.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  .page1_content h5 {
+    font-size: 10px;
+  }
+  .page1_content h3 {
+    font-size: 15px;
+  }
+  .page1_content h3::after {
+    bottom: 33%;
+    right: -4%;
+  }
+  .page1_content p {
+    font-size: 15.5px;
+    line-height: 21px;
+    margin-bottom: 13px;
+  }
+  .page1_content p::after {
+    top: -100%;
+    right: -13%;
+  }
+  .page1_content h1 #pet::before {
+    content: "";
+    position: absolute;
+    left: -75%;
+    top: 48%;
+    width: 25px;
+    height: 18px;
+    background-image: url(./assests/peace-symbol.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  /*! PAGE 2  */
+  .page2_content {
+    flex-direction: column;
+  }
+  .page2_content h1 {
+    font-size: 26px;
+    margin-bottom: 9px;
+  }
+  .page2_content p {
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 9px;
+  }
+  .page2_content ul {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  /*! PAGE 3  */
+  .page3_content {
+    padding: 0 2%;
+  }
+  .page3_imgdiv {
+    flex: 0 0 50%;
+  }
+  .page3-two-content {
+    padding: 6% 1%;
+    flex: 0 0 50%;
+  }
+  .page3-two .page3-two-content > p {
+    font-size: 15px;
+    line-height: 19.44px;
+  }
+  .page3-div1 > p,
+  .page3-div2 > p,
+  .page3-div3 > p {
+    font-size: 14.92px;
+    line-height: 15.32px;
+    padding: 14px 21px;
+  }
+
+  /*! PAGE  4*/
+  .page4 {
+    padding: 12% 0;
+  }
+  .page4-two h1 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+  .page4-two p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .page4-content {
+    gap: 58px;
+    flex-direction: column;
+  }
+  /*! PAGE 5   */
+  .page5-content h1 {
+    font-size: 29px;
+    margin-bottom: 2px;
+  }
+  .page5-one p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+  .page5-content p {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 34px;
+  }
+  .page5-content .h1 {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .custom-prev,
+  .custom-next {
+    font-size: 18px;
+    padding: 1px 6px;
+    top: 27%;
+  }
+  /*! PAGE 6  */
+  .page6-one h1 {
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+  .page6-one p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .page6-one h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .page6-one #page6-para {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  /*! PAGE 7  */
+  .page7-one h1 {
+    font-size: 28px;
+    margin-bottom: 23px;
+  }
+  .page7-two img {
+    width: 162px;
+    height: auto;
+  }
+  .page7-three p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  /*! PAGE 8  */
+  .page8-content h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 9px;
+  }
+  .page8-content p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .page8-content h3 {
+    font-size: 17px;
+    margin-bottom: 23px;
+  }
 }
-@media (max-width: 791px) {
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .page1_content h5::before {
+    left: -116%;
+  }
+  .page1_content h5 #march {
+    letter-spacing: 3px;
+  }
+  .page1_content h5 {
+    font-size: 12px;
+  }
+  .page1_content h1 {
+    font-size: 36px;
+    line-height: 52px;
+    margin-bottom: 2px;
+  }
+  [alt="Union"] {
+    height: 55%;
+  }
+
+  .page1_content h5 {
+    font-size: 15px;
+  }
+
+  .page1_content h3 {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 23px;
+  }
+  .page1_content p {
+    display: none;
+  }
+  .page1_content p::before {
+    content: "";
+  }
+  .page1_content p::after {
+    top: -100%;
+    right: -20%;
+  }
+  .page1_content h1 #pet::after {
+    width: 25px;
+  }
+
+  /*! PAGE 2 */
+  .page2_content h1 {
+    font-size: 24px;
+    margin-bottom: 7px;
+  }
+
+  .page2_content p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .display {
+    display: none;
+  }
+
+  /*! PAGE 3 */
+  .page3_content {
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+  }
+  .hidden-content {
+    display: none;
+  }
+  .read-more-btn {
+    display: inline-block !important;
+  }
+
+  .page3-one h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .page3-two {
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .page3_imgdiv {
+    width: 107%;
+    text-align: center;
+  }
+
+  .page3_imgdiv img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .page3-two-content {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .page3-three {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .page3-three > div {
+    width: 100%;
+    background-color: var(--white-color);
+    /* border-radius: var(--border-radius) var(--border-radius) 0 0; */
+    padding: 15px;
+    text-align: center;
+  }
+
+  .page3-three img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .page3-three h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .page3-three p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  /*! PAGE 4 */
+  .page4-two h1 {
+    font-size: 22px;
+  }
+
+  .page4-two p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  /*! PAGE 5 */
+  .page5-content h1 {
+    font-size: 25px;
+  }
+
+  .page5-content p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .custom-prev,
+  .custom-next {
+    font-size: 16px;
+    padding: 2px 5px;
+  }
+
+  /*! PAGE 6 */
+  .page6-content {
+    flex-direction: column;
+  }
+  .page6-one h1 {
+    font-size: 27px;
+    margin-bottom: 5px;
+  }
+
+  .page6-one p {
+    font-size: 19px;
+    line-height: 14px;
+  }
+
+  /*! PAGE 7 */
+  .page7-one h1 {
+    font-size: 25px;
+  }
+
+  .page7-two img {
+    width: 140px;
+  }
+
+  .page7-three p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /*! PAGE 8 */
+  .page8-content h1 {
+    font-size: 28px;
+  }
+
+  .page8-content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .page8-content button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    width: 80%;
+  }
+  .page1_content h5::before {
+    left: -116%;
+  }
+  .page1_content h5 #march {
+    letter-spacing: 3px;
+  }
+  .page1_content h5 {
+    font-size: 9px;
+  }
+  .page1_content h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 2px;
+  }
+  [alt="Union"] {
+    height: 49%;
+    display: none;
+  }
+  .page1_content h3 {
+    font-size: 10px;
+    line-height: 30px;
+  }
+  .page1_content p {
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .page1_content p::before {
+    content: "";
+  }
+  .page1_content p::after {
+    top: -100%;
+    right: -20%;
+  }
+  .page1_content h1 #pet::after {
+    width: 25px;
+  }
+
+  /*! PAGE 2  */
+  .page2_content {
+    flex-direction: column;
+    gap: 38px;
+  }
+  .page2 {
+    padding: 50px 0;
+  }
+  .page2_images img {
+    width: 85%;
+  }
+  .page2_content p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  /*! PAGE 3  */
+  .page3_content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .page3_imgdiv img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .page3 {
+    padding: 64px 0;
+  }
+
+  .page3-two {
+    flex-direction: column;
+  }
+  .page3_content .page3-three {
+    flex-direction: column;
+  }
+
+  .page3-two .page3-two-content > p {
+    font-size: 17px;
+    line-height: 19.44px;
+  }
+  .page3-three p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  /*! PAGE 4  */
+  .page4-content {
+    gap: 36px;
+    flex-direction: column;
+  }
+  .page4-two h1 {
+    line-height: 31px;
+  }
+
+  .page4-two p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .page4-two h1 {
+    font-size: 25px;
+    margin-bottom: 13px;
+  }
+
+  .custom-prev,
+  .custom-next {
+    font-size: 23px;
+    padding: 2px 9px;
+    top: 35%;
+  }
+  .custom-next {
+    right: -6%;
+  }
+  .custom-prev {
+    left: -6%;
+  }
+
+  .page5-content p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .page6-content {
+    gap: 29px;
+    padding: 10% 0;
+    flex-direction: column;
+  }
+
+  .page6-one p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .page6-one #page6-para {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .page7-three p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+  }
+  .page7-one h1 {
+    font-size: 22px;
+  }
+  .page7-two {
+    gap: 28px;
+  }
+  .page8-content p {
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .page8-content h1 {
+    font-size: 23px;
+  }
+  .page1_content h1 #pet::before {
+    left: -41%;
+  }
+}
+
+@media (max-width: 368px) {
 }
